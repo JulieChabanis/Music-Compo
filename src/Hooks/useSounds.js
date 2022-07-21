@@ -23,13 +23,13 @@ export default function useSounds() {
 
   const buttonsList = [
     { 
-      soundPlay: () => mySampler.current.triggerAttackRelease(["C4"], 4) 
+      soundPlay: () => mySampler.current.triggerAttackRelease(["C5"], 4) 
     },
     { 
       soundPlay: () => mySampler.current.triggerAttackRelease(["D#4"], 4) 
     },
     { 
-      soundPlay: () => mySampler.current.triggerAttackRelease(["F#4"], 4) 
+      soundPlay: () => mySampler.current.triggerAttackRelease(["F#3"], 4) 
     },
     { 
       soundPlay: () => mySampler.current.triggerAttackRelease(["A4"], 4) 
